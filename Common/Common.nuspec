@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Omergal.MyLuz.Common</id>
+    <version>1.5.1</version>
+    <title>MyLuz/Common</title>
+    <authors>Omergal</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <description>A Common library used in various microservices in the MyLuz project</description>
+    <releaseNotes>Added queues definition</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>MyLuz Common</tags>
+  </metadata>
+</package>

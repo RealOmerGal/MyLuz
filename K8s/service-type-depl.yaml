@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-type-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: service-type-service
+  template:
+    metadata:
+      labels:
+        app: service-type-service
+    spec:
+      containers:
+        - name: service-type-service
+        - image: omergal/service-type-service:latest
